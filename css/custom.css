@@ -466,7 +466,9 @@ section#steps{
 .tarif .tarif-desc-down{
     padding: 15px;
 }
-
+section#partners{
+    background: #181C27;
+}
 aside.clients {
   background-color: #CA222D;
   text-align: center;
@@ -486,7 +488,7 @@ section#faq {
   height: 1050px;
 }
 footer {
-  background: #181C27;
+  background: #1A1A1A;
   color: #fff;
   padding: 25px 0;
   text-align: center;
