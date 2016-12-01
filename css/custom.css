@@ -52,7 +52,7 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #A1A2A6;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -409,13 +409,62 @@ span.circle-stat em {
   font-style: normal;
   font-weight: bold;
 }
-#prikol{
+section#prikol{
     background-image: url('../img/block1.jpg');
 }
-
-#steps{
+#gift{
+    background-image: url('../img/1-3.png');
+    height: 600px;
+}
+#gift2{
+    margin-top:-340px;
+    background-image: url('../img/4-100.png');
+    height: 1380px;
+}
+section#steps{
     background-image: url('../img/7step_all.jpg');
     height: 893px;
+}
+.tarif{
+    background-image: url('../img/tarif.jpg');
+    width: 218px;
+    height: 502px;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.7);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.7);
+}
+.tarif .tarif-head{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tarif .tarif-people{
+    text-align: center;
+    padding-right: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.tarif .tarif-price{
+    font-size: 32px;
+    font-weight: 700;
+    color: #B73030;
+    padding-top: 55px;
+    text-align: center;
+}
+.tarif .tarif-btn{
+    text-align: center;
+    padding: 20px 0;
+}
+.tarif .tarif-desc{
+    font-weight: 700;
+    padding: 15px;
+    height: 115px;
+    margin-top: 20px;
+}
+.tarif .tarif-desc-down{
+    padding: 15px;
 }
 
 aside.clients {
@@ -434,9 +483,10 @@ section#faq {
   background-image: url('../img/question.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  height: 1050px;
 }
 footer {
-  background: #000;
+  background: #181C27;
   color: #fff;
   padding: 25px 0;
   text-align: center;
